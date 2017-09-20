@@ -1,4 +1,118 @@
 /*global values*/
 * {
 	box-sizing: border-box;
+	font-family: 'Roboto', arial, "sans-serif";
+	
+}
+
+body {
+	display: block;
+	font-size: 13px;
+}
+header {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fafafa;
+	height: 120px;
+	border-bottom: 1px solid #ebebeb;
+	margin: 0px;
+	padding: 20px;
+}
+section {
+	margin-top: 130px;
+	margin-left: 150px;
+	width: 600px;
+	height: auto;
+}
+footer {
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 120px;
+}
+#logo {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	display: inline-block;
+	width: 120px;
+	height: 44px;
+}
+header input {
+	position: absolute;
+	left: 140px;
+	width: 650px;
+	height: 44px;
+	border: 1px solid #e8e8e8;
+	box-shadow: 0px 0px 1px 1px #cdc8b1;
+	background-image: url("./search-bar.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.nav-left {
+	display: inline-block;
+	position: relative;
+	top: 55px; 
+	left: 100px;  
+}
+.nav-right {
+    left: 650px;
+	display: inline-block;
+	position: relative;
+	top: 55px;
+	left: 200px;
+
+}
+
+header li, footer li {
+	display: inline;
+	margin-right: 20px;
+}
+a {	text-decoration: none;
+	cursor: auto;
+}
+li a {
+	color: #777;
+}
+#current {
+	color: #4285f4;
+	border-bottom: 3px solid #4285f4;
+	font-weight: bold;
+	padding: 17px 13px;
+}
+#account {
+	position: absolute;
+	display: block;
+	top: 20px;
+	right: 15px;
+}
+
+div {
+	display: block;
+	position: relative;
+}
+p span {
+	color: #A2A2A2;
+	font-size: small;
+}
+.result a {
+	font-size: 18px;
+	color: #1a0dab;
+}
+#green-text {
+color: green;
+margin: 0;
+}
+.result p{
+	line-height: 18px;
+	color: #545454;
+	text-align: left;
+	margin-top: 0;
 }
